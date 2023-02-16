@@ -26,8 +26,8 @@ Here is the code, images, and data on the populations of interest in Point Reyes
 
 ## Recreate my work by...
 * Using the full images pulled from Google Earth found under `Images`
-* Tile these images with  `Cold/Tile_Harbor_Seals.ipynb` and `Code/Tile_Elephant_Seals.ipynb`
-* Create your own annotations via https://www.robots.ox.ac.uk/~vgg/software/via/app/via_image_annotator.html or use mine found in `Data/Harbor_Seal_Anno_csv.csv` and `Data/Elephant_Seal_Anno_csv`
+* Tile these images with  `Code/Tile_Harbor_Seals.ipynb` and `Code/Tile_Elephant_Seals.ipynb`
+* Create your own annotations via https://www.robots.ox.ac.uk/~vgg/software/via/app/via_image_annotator.html or use mine found in `Data/Harbor_Seal_Anno_csv.csv` (a single csv file) and `Data/Elephant_Seal_Anno_csv` (a folder of csv files).
 * If you're using your own annotations, use this repo https://github.com/martinzlocha/anchor-optimization/ to get anchor configurations, or use mine at `Data/habor_config.ini` and `Data/elephant_config.ini`
 * Convert annotations into the right format for Retinanet using `Code/Harbor_Seal_Annotations_Right_Format.ipynb` and `Code/Elephant_Seal_Annotations_Right_Format.ipynb` 
   * Please note that this code will give you randomized training, validation, and testing sets. If you want to train/test on specific imagery, you must change the code.
